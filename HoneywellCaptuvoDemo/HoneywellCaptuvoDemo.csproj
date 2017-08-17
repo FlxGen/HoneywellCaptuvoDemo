@@ -92,8 +92,9 @@
     <InterfaceDefinition Include="Resources\LaunchScreen.xib" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="CaptuvoSDK">
-      <HintPath>..\..\CaptuvoSDK\CaptuvoSDK\bin\Debug\CaptuvoSDK.dll</HintPath>
+    <Reference Include="CaptuvoSDK, Version=1.0.6438.26848, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\CaptuvoSDK.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
@@ -102,6 +103,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Entitlements.plist" />
+    <Content Include="lib\CaptuvoSDK.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
