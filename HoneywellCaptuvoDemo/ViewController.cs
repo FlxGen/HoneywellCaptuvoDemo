@@ -52,7 +52,6 @@ namespace HoneywellCaptuvoDemo
                 captuvo.AddCaptuvoDelegate(this);
                 captuvo.StartDecoderHardware(250);
                 captuvo.StartPMHardware(250);
-                captuvo.StartMSRHardware(250);
             }
 
             public override void CaptuvoConnected()
@@ -61,7 +60,6 @@ namespace HoneywellCaptuvoDemo
 
                 captuvo.StartDecoderHardware(250);
                 captuvo.StartPMHardware(250);
-                captuvo.StartMSRHardware(250);
             }
 
             public override void CaptuvoDisconnected()
@@ -70,7 +68,6 @@ namespace HoneywellCaptuvoDemo
 
                 captuvo.StopDecoderHardware();
                 captuvo.StopPMHardware();
-                captuvo.StopMSRHardware();
             }
 
             public override void DecoderReady()
