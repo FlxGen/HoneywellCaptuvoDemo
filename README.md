@@ -2,12 +2,6 @@
 
 Connect to a Honeywell Captuvo Sled using Xamarin.iOS.  Make sure you have the following in your info.plist, otherwise the accessory will not work.
 
-	<key>UISupportedExternalAccesoryProtocols</key>
-	<array>
-		<string>com.honeywell.scansled.protocol.decoder</string>
-		<string>com.honeywell.scansled.protocol.msr</string>
-		<string>com.honeywell.scansled.protocol.pm</string>
-	</array>
 	<key>UISupportedExternalAccessoryProtocols</key>
 	<array>
 		<string>com.honeywell.scansled.protocol.decoder</string>
